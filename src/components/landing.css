@@ -1,0 +1,240 @@
+.landing-img{
+    position: absolute;
+    width: 440px;
+    height: 775.69px;
+    left: calc(50% - 440px/2 - 366px);
+    top: 100px;
+    
+    background: url(Landing.jsx);
+    filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
+    border-radius: 35.1522px;
+    
+}
+.txt{
+    position: absolute;
+width: 573.91px;
+height: 192px;
+left: 500px;
+top: 200px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+
+text-align: right;
+
+color: #240D57;
+}
+
+.snap{
+    position: absolute;
+width: 295px;
+height: 74px;
+left: 279px;
+top: 59px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+/* identical to box height */
+
+text-align: right;
+
+background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.para{
+    width: 521px;
+height: 56px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.btn{
+   
+    margin-right: 200px;
+width: 320px;
+height: 55px;
+left: calc(50% - 320px/2 + 231pt);
+top: 500px;
+
+position: absolute;
+background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+border-radius: 10px;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+@media only screen and (max-width: 
+960px) {
+    .txt{
+       
+        position: absolute;
+        width: 573.91px;
+        height: 192px;
+        left: 154.04px;
+        top: 100px;
+        padding-right: 100px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        /* or 100% */
+        
+        text-align: center;
+        
+        color: #240D57;
+        
+    }
+    .snap{
+        position: absolute;
+width: 550px;
+height: 74px;
+left: 0px;
+top: 59px;
+padding-right: 100px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+/* identical to box height */
+
+text-align: center;
+
+background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+    }
+ 
+  .landing-img{
+    /* image 1 */
+
+
+position: absolute;
+width: 311px;
+height: 548.27px;
+left: calc(50% - 311px/2 + 0.5px);
+top: 379px;
+
+background: url(Landing.jsx);
+filter: drop-shadow(0px 0px 33.1283px rgba(0, 0, 0, 0.05));
+border-radius: 24.8462px;
+  }
+  .btn{
+    
+    
+    
+    
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: calc(50% - 320px/2);
+    top: 980px;
+    
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+  }
+  .para{
+    margin-left: auto;
+    padding-right: 100px;
+    width: 521px;
+height: 56px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+.btm{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 159px;
+
+background: rgba(249, 249, 249, 0.94);
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+}
+.btm-button{
+    Width:331px;
+Height:44px;
+margin-left: 200px;
+margin-top: 5px;
+
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.08);
+border-radius: 12px;
+}
+  }
+  @media only screen and (max-width: 
+960px) {
+
+}
